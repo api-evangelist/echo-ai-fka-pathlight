@@ -1,8 +1,26 @@
 aid: echo-ai-fka-pathlight
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/echo-ai-fka-pathlight.png
 name: Echo AI (fka Pathlight)
-description: Echo AI (fka Pathlight) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Echo AI (formerly Pathlight) was an AI-driven customer conversation intelligence platform
+  used by customer-experience and support teams to analyze support conversations, surface hidden insights,
+  and coach agents. It was a portfolio company of Insight Partners. As of this enrichment pass the company
+  publishes no discoverable public developer surface — no API documentation, OpenAPI, SDKs, or MCP server —
+  and its marketing domains are offline (pathlight.com no longer resolves and echoai.com returns a removed
+  Framer site). The only verified live public asset is the company's GitHub organization, whose public
+  repositories are forks of third-party libraries and Singer.io data-ingestion taps used internally rather
+  than any first-party client library. This profile is retained as an identity record; no fabricated API
+  artifacts were added.
 url: https://raw.githubusercontent.com/api-evangelist/echo-ai-fka-pathlight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Conversation Intelligence
+- Customer Experience
+- Customer Support
+- Artificial Intelligence
+- Analytics
+x-web-presence-status: offline
+x-web-presence-note: 'pathlight.com does not resolve (no DNS); echoai.com returns a removed Framer site
+  (HTTP 404); echo-ai.com is a parked/lander domain. Verified live 2026-07-19.'
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,11 @@ maintainers:
 common:
 - type: Website
   url: https://www.pathlight.com/
+- type: GitHubOrganization
+  name: Pathlight on GitHub
+  url: https://github.com/pathlight
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
