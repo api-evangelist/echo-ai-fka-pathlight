@@ -50,7 +50,7 @@ x-acquired-by:
   note: 'calabrio.com now 302s to https://www.verint.com/workforce-engagement/ following the Thoma Bravo
     Verint/Calabrio combination; no Echo AI-branded developer surface is published on either host, so no
     Calabrio or Verint contract is attributed to this profile.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-08-14'
 tags:
