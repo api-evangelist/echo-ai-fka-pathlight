@@ -1,0 +1,64 @@
+generated: '2026-08-14'
+method: searched
+source: >-
+  registry.npmjs.org, pypi.org, github.com/Pathlight — searched 2026-08-14
+package_count: 0
+official_count: 0
+packages: []
+note: >-
+  No first-party client library exists for Echo AI (fka Pathlight). The company
+  never published a public API, so there is nothing for an SDK to wrap. Because
+  the brand names collide with unrelated projects, this file records the
+  NEGATIVE result explicitly so a later round does not mistake a name match for
+  a first-party SDK.
+rejected_name_collisions:
+- registry: npm
+  package: '@pathlight/sdk'
+  version: 0.3.3
+  published: '2026-05-01'
+  rejected_because: >-
+    "SDK for Pathlight — visual debugging and observability for AI agents",
+    published by npm user `syndicalt` from github.com/syndicalt/pathlight. A
+    different product that happens to share the name; unrelated to the customer
+    conversation-intelligence company.
+- registry: npm
+  package: echoai
+  version: 2.3.3
+  published: '2026-04-01'
+  rejected_because: >-
+    An AI terminal CLI published by npm user `vijeetshah` from
+    github.com/vijeet-shah/echo-ai-cli. Unrelated.
+- registry: npm
+  package: echo-ai-sdk
+  version: 2.1.0
+  published: '2026-03-19'
+  rejected_because: >-
+    "Enterprise AI SDK" published by npm user `endse` from
+    github.com/echomind/echo-ai-sdk. Unrelated.
+- registry: pypi
+  package: pathlight
+  version: 0.3.3
+  published: null
+  rejected_because: >-
+    Same syndicalt agent-observability project as the npm scope above
+    (github.com/syndicalt/pathlight, author Nicholas Blanchard). Unrelated.
+- registry: pypi
+  package: echoAI
+  version: 0.1.3
+  published: null
+  rejected_because: >-
+    A machine-learning activation-function library (github.com/digantamisra98/Echo,
+    author Diganta Misra). Unrelated.
+github_organization:
+  url: https://github.com/Pathlight
+  public_repo_count: 62
+  first_party_repos_are_not_sdks: true
+  note: >-
+    The org's public repos are third-party forks (django, dramatiq, zenpy,
+    slate, apexcharts.js, snowflake-connector-python) plus ~25 first-party
+    Singer.io `tap-*` connectors that INGEST other vendors' APIs (Gorgias,
+    Gladly, Dialpad, Zendesk, Five9, Kustomer, Qualtrics, Playvox, MaestroQA,
+    Assembled, Stella Connect, Helpshift, LiveChat, Jira, Salesforce). They are
+    consumers of other companies' APIs, not client libraries for an Echo AI API.
+    One first-party `zendesk_marketplace_app` exists — a Zendesk marketplace
+    integration, not a distributable package.

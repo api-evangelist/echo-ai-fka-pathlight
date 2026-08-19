@@ -1,0 +1,49 @@
+generated: '2026-08-14'
+method: probed
+source: live HTTP probes of every host this company is known to have used
+note: >-
+  Every /.well-known/ path probed returned 404 on echoai.com (the company's final
+  brand domain, which itself serves a Framer "Site Not Found" 404 shell) and failed
+  DNS resolution entirely on pathlight.com (the legacy brand domain, which retains
+  NS/SPF/DMARC records but publishes no A record). No document was returned on any
+  path, so NO WellKnown or SecurityTxt pointer is emitted in apis.yml — this file
+  records a verified absence, not a served surface.
+hosts:
+- host: echoai.com
+  reachable: true
+  note: resolves to AWS; returns HTTP 404 "Site Not Found | Framer" for every path
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: pathlight.com
+  reachable: false
+  note: no A record; DNS resolution fails (NS delegated to AWS Route 53, SPF + DMARC still published)
+  probes:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+    error: could not resolve host
+hits: 0
+documents_saved: 0

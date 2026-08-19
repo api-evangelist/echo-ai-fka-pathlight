@@ -1,0 +1,13 @@
+generated: '2026-08-14'
+method: searched
+source: https://echoai.com/
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No published rate limits. Echo AI never shipped a public API, so there is no
+  documented limit, no window, and no RateLimit-*/X-RateLimit-*/Retry-After
+  response header to record. Both brand hosts are dark (echoai.com HTTP 404,
+  pathlight.com does not resolve) and the Wayback CDX index for echoai.com and
+  pathlight.com contains no /api, /docs/api or /developer path at any point in
+  the site's history — only legal pages. An honest zero, probed 2026-08-14.

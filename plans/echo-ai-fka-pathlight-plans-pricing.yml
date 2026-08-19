@@ -1,0 +1,13 @@
+generated: '2026-08-14'
+method: searched
+source: https://echoai.com/
+plan_count: 0
+plans: []
+note: >-
+  No pricing or plans page could be read. Echo AI's pricing was never
+  self-serve — the company sold enterprise conversation-intelligence contracts
+  through a "request a demo" motion — and both brand domains are now dark:
+  echoai.com returns HTTP 404 (Framer "Site Not Found") and pathlight.com does
+  not resolve. Echo AI was acquired by Calabrio on 2024-12-11 and its pricing is
+  no longer published anywhere under its own brand. An honest zero, probed
+  2026-08-14.
