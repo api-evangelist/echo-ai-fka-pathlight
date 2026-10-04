@@ -68,7 +68,7 @@ tags:
 - Company
 - Conversation Intelligence
 - Customer Experience
-- Customer-Support
+- Customer Support
 - Artificial Intelligence
 - Analytics
 tags_raw:
@@ -78,6 +78,7 @@ tags_raw:
 - Customer Support
 - Artificial Intelligence
 - Analytics
+- Customer-Support
 x-web-presence-status: offline
 x-web-presence-note: 'pathlight.com does not resolve (no A record; NS still delegated to Route 53, SPF +
   DMARC still published); echoai.com resolves but returns HTTP 404 "Site Not Found | Framer" on every path;
