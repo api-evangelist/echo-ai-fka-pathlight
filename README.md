@@ -64,6 +64,57 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Echo AI (fka Pathlight) is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: insight-partners — https://www.pathlight.com/
+Echo AI (formerly Pathlight) was an AI-driven customer conversation intelligence platform used by customer-experience and support teams to analyze support conversations, surface hidden insights, and coach agents. Founded as Pathlight and backed by Kleiner Perkins, Insight Partners and Quiet Capital, it rebranded to Echo AI in January 2024 and was acquired by contact-center workforce-engagement vendor Calabrio on 2024-12-11; the technology now ships inside Calabrio ONE, and calabrio.com itself now redirects to verint.com. The company publishes no discoverable public developer surface of its own — no API documentation, OpenAPI, GraphQL, MCP server, agent card or first-party SDK — and both brand domains are dark — pathlight.com no longer resolves and echoai.com returns a removed Framer site (HTTP 404). The Wayback index for both domains contains no /api, /docs/api or /developer path at any point in their history, only legal pages. The only verified live public asset is the Pathlight GitHub organization, whose 62 public repositories are third-party forks plus first-party Singer.io taps that INGEST other vendors' APIs (Zendesk, Gorgias, Gladly, Dialpad, Five9, Kustomer) rather than any first-party client library. This profile is retained as an identity record; no fabricated API artifacts were added, and the npm/PyPI packages that share the Pathlight and Echo AI names were verified to belong to unrelated publishers.
+
+**Areas:** Company · Conversation Intelligence · Customer Experience · Customer Service · Artificial Intelligence · Analytics
+
+## Echo AI (fka Pathlight) on APIs.io (historical record)
+
+Everything profiled for Echo AI (fka Pathlight) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/echo-ai-fka-pathlight/](https://apis.io/providers/echo-ai-fka-pathlight/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Echo Ai Fka Pathlight Domain Security](https://apis.io/security/echo-ai-fka-pathlight/echo-ai-fka-pathlight-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Echo Ai Fka Pathlight Plans Pricing](https://apis.io/plans/echo-ai-fka-pathlight/echo-ai-fka-pathlight-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Echo Ai Fka Pathlight Rate Limits](https://apis.io/rate-limits/echo-ai-fka-pathlight/echo-ai-fka-pathlight-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.echoai.com/)
+- [GitHub](https://github.com/pathlight)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Echo AI (fka Pathlight): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/echo-ai-fka-pathlight/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
